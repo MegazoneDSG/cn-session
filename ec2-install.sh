@@ -17,13 +17,13 @@ chmod +x /etc/profile.d/gradle.sh
 source /etc/profile.d/gradle.sh
 
 # install git and build
-cd /root/fastcampus-session
+cd /root/cn-session
 gradle build
 
 # make service
 mkdir -p /var/lib/session-service/logs
 install -m 777 /dev/null /var/lib/session-service/logs/session-service.log
-cp /root/fastcampus-session/session-service/build/libs/session-service.jar /var/lib/session-service/
+cp /root/cn-session/session-service/build/libs/session-service.jar /var/lib/session-service/
 ln -s /var/lib//session-service/session-service.jar /etc/init.d/session-service
 chmod 755 /etc/init.d/session-service
 

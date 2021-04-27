@@ -8,8 +8,8 @@
 ```
 #!/bin/bash
 yum -y install git
-git clone https://github.com/SeungpilPark/fastcampus-session /root/fastcampus-session
-sh /root/fastcampus-session/ec2-install.sh
+git clone https://github.com/MegazoneDSG/cn-session /root/cn-session
+sh /root/cn-session/ec2-install.sh
 ```
 
 다음의 명령어로 EC2 userdata 실행 로그를 볼 수 있습니다.
