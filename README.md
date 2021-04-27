@@ -1,4 +1,4 @@
-# FastCampus DevOps Tutorial - Session Application
+# Cloud Native Tutorial - Session Application
 
 ## Start Api Server
 
