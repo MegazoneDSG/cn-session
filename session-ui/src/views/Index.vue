@@ -12,7 +12,7 @@
       >
         <span
           class="hidden-sm-and-down pointer-cursor">
-          FAST CAMPUS DevOps Tutorial
+          Cloud Native Tutorial
         </span>
       </v-toolbar-title>
 
